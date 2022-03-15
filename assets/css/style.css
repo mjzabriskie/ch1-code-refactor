@@ -125,7 +125,7 @@ structure of HTML */
     max-width: 150px;
 }
 
-/*Removed .footer class to simplify HTML and replaced it with semantic selecter, footer */
+/*Removed .footer class to simplify HTML and replaced it with semantic selecter, footer  */
 footer {
     padding: 30px;
     clear: both;
