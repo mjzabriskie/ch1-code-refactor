@@ -78,7 +78,6 @@ p {
 
 /* Consolidated attributes from several selectors into .offerings, and moved above .benefits to match
 structure of HTML */
-
 .offerings{
     margin-bottom: 20px;
     padding: 50px;
