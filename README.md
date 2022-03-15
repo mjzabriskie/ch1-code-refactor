@@ -15,6 +15,4 @@ In an effort to make the Horiseon website compliant with modern accesability sta
 https://mjzabriskie.github.io/ch1-code-refactor/
 
 ## Screenshot
-    ```md
-    ![Screenshot of website after code refactor](./assets/images/horiseon-code-refactor.png)
-    ```
+![Screenshot of website after code refactor](./assets/images/horiseon-code-refactor.png)
