@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Removed .header class to simplify the html and just used semantic selector, header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,7 +76,10 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+/* Consolidated attributes from several selectors into .offerings, and moved above .benefits to match
+structure of HTML */
+
+.offerings{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,51 +88,17 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.offerings img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.offerings h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Consolidated attributes from several selectors into .benefits, and moved below .offerings to match
+structure of HTML */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -156,6 +126,7 @@ p {
     max-width: 150px;
 }
 
+/*Removed .footer class to simplify HTML and replaced it with semantic selecter, footer */
 footer {
     padding: 30px;
     clear: both;
